@@ -1,5 +1,4 @@
 // IMPORT MODULES under test here:
-// import { findFriendByName } from '../data-utils.js';
 import { renderMushroom } from '../render-utils.js';
 
 const test = QUnit.test;
