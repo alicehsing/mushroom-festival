@@ -131,6 +131,10 @@ footer {
     box-shadow: var(--shadow);
 }
 
+img {
+    width: 100px;
+    height: 100px;
+}
 .left, .middle, .right {
     height: 100%;
     display: flex;

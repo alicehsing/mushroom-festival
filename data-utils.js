@@ -1,5 +1,9 @@
-export default function findFriendByName(name, friends) {
-    // iterate through the friends
-    
-    // when you find a friend with the correct name, return that friend
+export function findFriendByName(name, friendsArr) {
+    // iterate through the friends array
+    for (let item of friendsArr) {
+        // when you find a friend with the correct name, return that friend
+        if (item.name === name) {
+            return item;
+        }
+    }
 }
