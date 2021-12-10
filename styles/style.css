@@ -207,3 +207,15 @@ img {
     background-repeat: no-repeat;
     background-image: url('../assets/porcini.png')
 }
+
+.full {
+    opacity: .6;
+    cursor: not-allowed;
+}
+
+.full:hover {
+    opacity: .6;
+    cursor: not-allowed;
+    transition: none;
+    transform: rotate(0deg);
+}
